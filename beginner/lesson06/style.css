@@ -1,0 +1,39 @@
+.wrap {
+  padding: 50px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+.front,
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background-color: cornflowerblue;
+  line-height: 100px;
+  text-align: center;
+  font-size: 3em;
+}
+.back {
+  background-color: cadetblue;
+}
+
+.front,
+.back {
+  transition: all 1s ease;
+  backface-visibility: hidden;
+}
+.back {
+  transform: rotateX(180deg);
+}
+.box:hover .front {
+  transform: rotateX(180deg);
+}
+.box:hover .back {
+  transform: rotateX(0deg);
+}

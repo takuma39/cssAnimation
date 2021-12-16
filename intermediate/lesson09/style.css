@@ -1,0 +1,14 @@
+.wrap {
+  padding: 50px;
+}
+
+.stripe {
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.stripe {
+  background: linear-gradient(#dddddd 50%, #aaaaaa 50%);
+  /* background-size: 1px 10px; */
+}

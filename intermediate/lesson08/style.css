@@ -1,0 +1,27 @@
+.wrap {
+  padding: 50px;
+}
+
+.frame {
+  /* width: 400px;
+  height: 274px; */
+  width: 420px;
+  height: 294px;
+  border: 10px solid burlywood;
+}
+.image {
+  /* width: inherit;
+  height: inherit; */
+  width: calc(100%);
+  height: calc(100%);
+  box-shadow: 0 0 20px #bbbbbb inset;
+}
+
+.image {
+  background-image: url(https://ninjacode.work/assets/img/top/logo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image:hover {
+  background-image: url(https://ninjacode.work/assets/img/top/logo_red.png);
+}

@@ -1,0 +1,36 @@
+.wrap {
+  padding: 50px;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  background-color: #333333;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+}
+
+.btn:hover {
+  background: linear-gradient(
+    to right,
+    #e7484f,
+    #e7484f 20%,
+    #fced00 20%,
+    #fced00 40%,
+    #009e4f 40%,
+    #009e4f 60%,
+    #00aac3 60%,
+    #00aac3 80%,
+    #732982 80%,
+    #732982 100%,
+    #e7484f 100%
+  );
+  animation: slider 3s linear infinite;
+}
+@keyframes slider {
+  to {
+    background-position: 200px;
+  }
+}

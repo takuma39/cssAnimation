@@ -1,0 +1,33 @@
+.wrap {
+  padding: 50px;
+}
+
+p {
+  background-color: #dddddd;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+/* パターン1 */
+p {
+  transition: 3s;
+}
+.box:hover p {
+  transform: rotate(360deg);
+}
+
+/* パターン2 */
+/* .box:hover p {
+  animation: rotate 3s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */

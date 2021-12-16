@@ -1,0 +1,20 @@
+.wrap {
+  padding: 50px;
+}
+
+.sphere {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 3em;
+  background-color: #dddddd;
+  border-radius: 50%;
+}
+
+.sphere {
+  transition: 3s;
+}
+.box:hover .sphere {
+  transform: translateX(314px) rotate(360deg);
+}

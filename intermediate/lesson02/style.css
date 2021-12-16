@@ -1,0 +1,46 @@
+.wrap {
+  padding: 50px;
+}
+
+body {
+  padding: 30px;
+}
+.btn {
+  position: relative;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn::before,
+.btn::after {
+  position: absolute;
+  content: "";
+  width: inherit;
+  height: inherit;
+  border: 2px solid black;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.btn::before {
+  top: -5px;
+  left: -5px;
+  border-right: none;
+  border-bottom: none;
+}
+.btn::after {
+  top: 5px;
+  right: -5px;
+  border-top: none;
+  border-left: none;
+}
+
+.btn:hover::before {
+  transform: translate(5px, 5px);
+  border-radius: 30px;
+}
+.btn:hover::after {
+  border-radius: 30px;
+  transform: translate(-5px, -5px);
+}

@@ -1,0 +1,21 @@
+.wrap {
+  padding: 50px;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #333333;
+  color: #333333;
+  cursor: pointer;
+}
+
+.btn {
+  transition: 0.5s;
+}
+.btn:hover {
+  color: white;
+  box-shadow: inset -100px 0 0 #333333, inset 100px 0 0 #333333;
+}

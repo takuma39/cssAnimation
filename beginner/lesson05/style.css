@@ -1,0 +1,34 @@
+.wrap {
+  padding: 50px;
+}
+
+form {
+  position: relative;
+  width: 200px;
+  height: 30px;
+}
+input:first-of-type {
+  box-sizing: border-box;
+  width: inherit;
+  height: inherit;
+  background-color: #dfd;
+  border: none;
+  outline: none;
+}
+input:last-of-type {
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-sizing: border-box;
+  height: inherit;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+
+input:first-of-type:focus{
+  border: 2px solid;
+  background-color: #fff;
+}

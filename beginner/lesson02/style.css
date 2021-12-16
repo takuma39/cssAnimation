@@ -1,0 +1,29 @@
+.wrap {
+  padding: 50px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  display: inline;
+  cursor: pointer;
+}
+
+.twitter {
+  color: #00acee;
+}
+
+.instagram i {
+  background: linear-gradient(to bottom left, #c51dcd, #fdba2e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon i {
+  font-size: 3em;
+  transition-duration: 0.5s;
+}
+
+.icon:hover i {
+  transform: scale(1.1);
+}

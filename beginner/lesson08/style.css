@@ -1,0 +1,43 @@
+.wrap {
+  padding: 50px;
+}
+
+.box {
+  width: 300px;
+  white-space: nowrap;
+  text-align: center;
+}
+.image {
+  width: inherit;
+  height: 80px;
+  line-height: 80px;
+  background-color: aquamarine;
+}
+.text {
+  position: relative;
+  margin-top: 20px;
+  height: 50px;
+  background-color: #dddddd;
+  line-height: 50px;
+}
+.text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background-color: #dddddd;
+  z-index: -1;
+  height: 20px;
+  width: 20px;
+}
+
+.text {
+  transform: translateY(30px);
+  transition: 1s;
+  opacity: 0;
+}
+.box:hover .text {
+  transform: translateY(0);
+  opacity: 1;
+}

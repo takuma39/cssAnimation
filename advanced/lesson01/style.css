@@ -1,0 +1,29 @@
+.wrap {
+  padding: 50px;
+}
+
+.seal {
+  width: 100px;
+  height: 100px;
+  background-color: #dddddd;
+}
+
+.seal {
+  position: relative;
+  overflow: hidden;
+}
+.seal::before {
+  content: "";
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(135deg, #fff 50%, #dfd 50%);
+  box-shadow: 0 0 20px #333333;
+  transition: 2s;
+}
+.seal:hover::before {
+  width: 30px;
+  height: 30px;
+}

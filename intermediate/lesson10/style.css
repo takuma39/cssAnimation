@@ -1,0 +1,64 @@
+.wrap {
+  padding: 50px;
+}
+
+.stripe {
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.stripe {
+  background: repeating-linear-gradient(
+    #dddddd,
+    #dddddd 5px,
+    #aaaaaa 5px,
+    #aaaaaa 10px,
+    #555555 10px,
+    #555555 15px
+  );
+  /* animation: gradation 3s linear infinite; */
+}
+
+@keyframes gradation {
+  0% {
+    background: repeating-linear-gradient(
+      #dddddd,
+      #dddddd 5px,
+      #aaaaaa 5px,
+      #aaaaaa 10px,
+      #555555 10px,
+      #555555 15px
+    );
+  }
+  33% {
+    background: repeating-linear-gradient(
+      #aaaaaa,
+      #aaaaaa 5px,
+      #555555 5px,
+      #555555 10px,
+      #dddddd 10px,
+      #dddddd 15px
+    );
+  }
+  66% {
+    background: repeating-linear-gradient(
+      #555555,
+      #555555 5px,
+      #dddddd 5px,
+      #dddddd 10px,
+      #aaaaaa 10px,
+      #aaaaaa 15px
+    );
+  }
+  100% {
+    background: repeating-linear-gradient(
+      #dddddd,
+      #dddddd 5px,
+      #aaaaaa 5px,
+      #aaaaaa 10px,
+      #555555 10px,
+      #555555 15px
+    );
+  }
+}

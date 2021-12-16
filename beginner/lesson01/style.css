@@ -1,3 +1,18 @@
-div{
-    color: red;
+.wrap {
+  padding: 50px;
+}
+
+.btn {
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  cursor: pointer;
+  background-color: #dddddd;
+  box-shadow: 0 5px #bbbbbb;
+  transition: 0.2s;
+}
+
+.btn:active {
+  transform: translateY(5px);
+  box-shadow: 0 0 #bbbbbb;
 }

@@ -1,0 +1,23 @@
+.wrap {
+  padding: 50px;
+}
+
+.box {
+  background-color: #dddddd;
+  width: 300px;
+  height: 40px;
+}
+.box input {
+  height: inherit;
+}
+
+/* reset.cssに記載あり */
+.box input {
+  /* box-sizing: border-box; */
+}
+
+/* reset.cssで消されているため記載 */
+.box input {
+  border: 1px solid;
+  background-color: #fff;
+}

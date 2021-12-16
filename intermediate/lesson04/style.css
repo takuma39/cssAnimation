@@ -1,0 +1,30 @@
+.wrap {
+  padding: 50px;
+}
+
+.triangle {
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 173px solid black;
+  width: 0;
+  height: 0;
+}
+
+/* おまけ */
+/* .triangle {
+  border-top: 50px solid #f0897f;
+  border-right: 50px solid #f6da69;
+  border-bottom: 50px solid #b2ce54;
+  border-left: 50px solid #6aa7cd;
+  width: 0;
+  height: 0;
+} */
+
+/* .triangle {
+  border-top: 50px solid #f0897f;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid transparent;
+  width: 0;
+  height: 0;
+} */

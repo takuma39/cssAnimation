@@ -1,0 +1,19 @@
+.wrap {
+  padding: 50px;
+}
+
+.reverse {
+  /* transform: rotate(180deg); */
+  transform: rotate(0deg);
+  background-color: #dddddd;
+  font-size: 3em;
+  width: 1em;
+  transition: 0.5s;
+}
+/* .box:hover .reverse {
+  transform: translateX(30px);
+} */
+
+.box:hover .reverse {
+  transform: translateX(30px) rotate(180deg);
+}
